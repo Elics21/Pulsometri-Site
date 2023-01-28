@@ -1,0 +1,25 @@
+@import "base/mixins.scss";
+@import "base/variables.scss";
+
+* {
+   font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+   position: relative;
+   max-width: 950px;
+   margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/title";
+@import "blocks/benefits";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+
+
+// Adoptation
+@import "base/media";
